@@ -1,5 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/neo')
-
+# More about yield https://medium.com/rubycademy/the-yield-keyword-603a850b8921
 class AboutBlocks < Neo::Koan
   def method_with_block
     result = yield
